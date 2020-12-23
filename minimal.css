@@ -184,6 +184,11 @@ th { font-weight: bold; }
 td { text-align: left; }
 tfoot { font-style: italic; }
 
+<style>
+    tab1 { padding-left: 4em; }
+    tab2 { padding-left: 1em; }
+</style>
+
 /* Print */
 @media print {
 	* {
