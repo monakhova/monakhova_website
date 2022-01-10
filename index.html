@@ -39,8 +39,9 @@
 			</p>
 
 			<p> I am affiliated with the Berkeley Artificial Intelligence Research (<a href="https://bair.berkeley.edu/">BAIR</a>) Lab and am an <a href="https://www.nsfgrfp.org/">NSF GRFP</a> fellow.
-
 			</p>
+
+
 
 			<!--
 		  <p> I completed my B.S. in Electrical Engineering from the <a href="http://www.buffalo.edu">State University of New York at Buffalo</a> in May 2016.
@@ -72,6 +73,30 @@
 
 <hr>
 	<h2>Research Projects</h2>
+	<div class="row">
+			<h3>Deep learning for fast spatially-varying deconvolution</h3>
+			<img class="float-right" src="resources/spatially_varying.png" style="width:300px;">
+			<p>K. Yanny*, <b>K. Monkhova</b>*, R. Shuai, and L. Waller<br>
+
+			<a href="https://waller-lab.github.io/MultiWienerNet/">Project Page</a> /
+			<a href = "https://doi.org/10.1364/OPTICA.442438">Paper (Optica)</a>
+		</p>
+
+		<!--	<img class="float-right" src="resources/ladmm.png" style="width:400px;"> -->
+
+
+			<p>All optical systems blur images due to imperfections in the optics or
+				intentional design to encode additional information. Algorithms can be
+				used to undo some of this blur or recover 3D content, but most assume
+				that the blur is the same across the field of view, whereas in practice
+				the blur can be very different across the image. Our approach, called
+				MultiWienerNet, combines knowledge of the <b>field-varying blur
+				with deep learning</b> through multiple differetiable Wiener filters
+				to undo the blur quickly and efficiently. We show a 1,500X speedup
+				against classic methods as well as improved image quality.
+
+
+	</div>
 	<div class="row">
 			<h3>Untrained networks for compressive lensless photography</h3>
 			<img class="float-right" src="resources/rolling_shutter_combined_condensed.gif" style="width:300px;">
@@ -141,6 +166,8 @@
 		<p>
 			<b>K. Monakhova</b>, J. Yurtsever, G. Kuo, N. Antipa, K. Yanny, L. Waller <br>
 			<a href="https://waller-lab.github.io/LenslessLearning/index.html">Project Page</a> /
+			<a href="https://github.com/Waller-Lab/LenslessLearning">Code</a> /
+			<a href="https://waller-lab.github.io/LenslessLearning/dataset.html">Dataset</a> / 
 			<a href = "https://www.osapublishing.org/oe/abstract.cfm?uri=oe-27-20-28075">Paper (Optics Express)</a>
 		</p>
 
