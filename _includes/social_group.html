@@ -1,0 +1,111 @@
+            {%- if project.email -%}
+            <a href="mailto:{{ project.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a> {{project.email}} <br>
+            {% endif %} 
+            {%- if project.website -%}
+            <a href="{{ project.website }}" title="website"><i class="fas fa-home"></i> {{project.website}}</a><br>
+            {% endif %}
+            {%- if project.telegram_username -%}
+            <a href="https://telegram.me/{{ project.telegram_username }}" title="telegram"><i class="fab fa-telegram"></i></a><br>
+            {% endif %}
+            {%- if project.whatsapp_number -%}
+            <a href="https://wa.me/{{ project.whatsapp_number }}" title="whatsapp"><i class="fab fa-whatsapp"></i></a><br>
+            {% endif %}
+            {%- if project.orcid_id -%}
+            <a href="https://orcid.org/{{ project.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a><br>
+            {% endif %}
+            {%- if project.scholar_userid -%}
+            <a href="https://scholar.google.com/citations?user={{ project.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a><br>
+            {% endif %}
+            {%- if project.semanticscholar_id -%}
+            <a href="https://www.semanticscholar.org/author/{{ project.semanticscholar_id }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a><br>
+            {% endif %}
+            {%- if project.publons_id -%}
+            <a href="https://publons.com/a/{{ project.publons_id }}/" title="Publons"><i class="ai ai-publons"></i></a><br>
+            {% endif %}
+            {%- if project.lattes_id -%}
+            <a href="http://lattes.cnpq.br/{{ project.lattes_id }}" target="_blank" title="Lattes"><i class="ai ai-lattes"></i></a><br>
+            {% endif %}
+            {%- if project.osf_id -%}
+            <a href="https://osf.io/{{ project.osf_id }}/" title="Open Science Framework"><i class="ai ai-osf"></i></a><br>
+            {% endif %}
+            {%- if project.research_gate_profile -%}
+            <a href="https://www.researchgate.net/profile/{{project.research_gate_profile}}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a><br>
+            {% endif %}
+            {%- if project.scopus_id -%}
+            <a href="https://www.scopus.com/authid/detail.uri?authorId={{project.scopus_id}}" title="Scopus"><i class="ai ai-scopus"></i></a><br>
+            {% endif %}
+            {%- if project.github_username -%}
+            <a href="https://github.com/{{ project.github_username }}" title="GitHub"><i class="fab fa-github"></i></a><br>
+            {% endif %}
+            {%- if project.linkedin_username -%}
+            <a href="https://www.linkedin.com/in/{{ project.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a><br>
+            {% endif %}
+            {%- if project.twitter_username -%}
+            <a href="https://twitter.com/{{ project.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a><br>
+            {% endif %}
+            {%- if project.mastodon_username -%}
+            <a rel="me" href="https://{{ project.mastodon_username  }}" title="Mastodon"><i class="fab fa-mastodon"></i></a><br>
+            {% endif %}
+            {%- if project.medium_username -%}
+            <a href="https://medium.com/@{{ project.medium_username }}" title="Medium"><i class="fab fa-medium"></i></a><br>
+            {% endif %}
+            {%- if project.quora_username -%}
+            <a href="https://www.quora.com/profile/{{ project.quora_username }}" title="Quora"><i class="fab fa-quora"></i></a><br>
+            {% endif %}
+            {%- if project.blogger_url -%}
+            <a href="{{ project.blogger_url }}" title="Blogger"><i class="fab fa-blogger-b"></i></a><br>
+            {% endif %}
+            {%- if project.work_url -%}
+            <a href="{{ project.work_url }}" title="Work"><i class="fas fa-briefcase"></i></a><br>
+            {% endif %}
+            {%- if project.wikidata_id -%}
+            <a href="https://www.wikidata.org/wiki/{{ project.wikidata_id }}" title="Wikidata"><i class="fas fa-barcode"></i></a><br>
+            {% endif %}
+            {%- if project.wikipedia_id -%}
+            <a href="https://wikipedia.org/wiki/User:{{ project.wikipedia_id }}" title="Wikipedia"><i class="fab fa-wikipedia-w"></i></a><br>
+            {% endif %}
+            {%- if project.strava_userid -%}
+            <a href="https://www.strava.com/athletes/{{ project.strava_userid }}" title="Strava"><i class="fab fa-strava"></i></a><br>
+            {% endif %}
+            {%- if project.keybase_username -%}
+            <a href="https://keybase.io/{{ project.keybase_username }}" title="Keybase"><i class="fab fa-keybase"></i></a><br>
+            {% endif %}
+            {%- if project.gitlab_username -%}
+            <a href="https://gitlab.com/{{ project.gitlab_username }}" title="GitLab"><i class="fab fa-gitlab"></i></a><br>
+            {% endif %}
+            {%- if project.dblp_url -%}
+            <a href="{{ project.dblp_url }}" title="DBLP"><i class="ai ai-dblp"></i></a><br>
+            {% endif %}
+            {%- if project.stackoverflow_id -%}
+            <a href="https://stackoverflow.com/users/{{ project.stackoverflow_id }}" title="Stackoverflow"><i class="fab fa-stack-overflow"></i></a><br>
+            {% endif %}
+            {%- if project.kaggle_id -%}
+            <a href="https://www.kaggle.com/{{ project.kaggle_id }}" title="Kaggle"><i class="fab fa-kaggle"></i></a><br>
+            {% endif %}
+            {%- if project.lastfm_id -%}
+            <a href="https://www.last.fm/user/{{ project.lastfm_id }}" title="Last FM"><i class="fab fa-lastfm"></i></a><br>
+            {% endif %}
+            {%- if project.spotify_id -%}
+            <a href="https://open.spotify.com/user/{{ project.spotify_id }}" title="Last FM"><i class="fab fa-spotify"></i></a><br>
+            {% endif %}
+            {%- if project.pinterest_id -%}
+            <a href="https://www.pinterest.com/{{ project.pinterest_id }}" title="Pinterest"><i class="fab fa-pinterest"></i></a><br>
+            {% endif %}
+            {%- if project.unsplash_id -%}
+            <a href="https://unsplash.com/@{{ project.unsplash_id }}" title="Unsplash"><i class="fab fa-unsplash"></i></a><br>
+            {% endif %}
+            {%- if project.instagram_id -%}
+            <a href="https://instagram.com/{{ project.instagram_id }}" title="Instagram"><i class="fab fa-instagram"></i></a><br>
+            {% endif %}
+            {%- if project.facebook_id -%}
+            <a href="https://facebook.com/{{ project.facebook_id }}" title="Facebook"><i class="fab fa-facebook"></i></a><br>
+            {% endif %}
+            {%- if project.youtube_id -%}
+            <a href="https://youtube.com/@{{ project.youtube_id }}" title="YouTube"><i class="fab fa-youtube"></i></a><br>
+            {% endif %}
+            {%- if project.discord_id -%}
+            <a href="https://discord.com/users/{{ project.discord_id }}" title="Discord"><i class="fab fa-discord"></i></a><br>
+            {% endif %}
+            {%- if project.rss_icon -%}
+            <a href="{{ project.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a><br>
+            {% endif %}

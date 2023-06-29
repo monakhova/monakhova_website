@@ -1,0 +1,41 @@
+- name: Ellin Zhao
+  info: Now PhD student at UCLA
+  email: ellinz[at]ucla.edu
+  category: Undergraduates mentored at UC Berkeley
+  education: BS EECS, UC Berkeley
+  importance: 5
+  website: https://ellinz.com/
+
+- name: Nico Deshler
+  info:  Now PhD student at University of Arizona
+  education:
+  category: Undergraduates mentored at UC Berkeley
+  importance: 5
+  website: https://nicodeshler.github.io/NicoDeshler/
+
+- name: Joshua Yurtsever 
+  info:  Now at Google
+  education:
+  category: Undergraduates mentored at UC Berkeley
+  importance: 5
+  website: https://www.linkedin.com/in/joshua-yurtsever/
+
+- name: Christian Foley
+  info: currently at UC Berkeley
+  education:
+  category: Undergraduates mentored at UC Berkeley
+  importance: 2
+  website: https://www.linkedin.com/in/christian-foley/
+
+- name: Vi Tran 
+  info: currently at UC Berkeley
+  education:
+  category: Undergraduates mentored at UC Berkeley
+  importance: 2
+  website: https://www.linkedin.com/in/vi-tran-125230167/
+
+- name: Test PhD Alumni
+  info: now at Google
+  education:
+  category: PhD students
+  importance: 4
