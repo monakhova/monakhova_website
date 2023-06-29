@@ -1,0 +1,27 @@
+- name: Kristina Monakhova, Ph.D.
+  img: assets/img/Kristina_Monakhova.jpg
+  info: Principal Investigator <br> Assistant Professor of Computer Science, Cornell University (starting Fall 2024)
+  email: km967[at]cornell.edu
+  category: Professor
+  education: PhD EECS, UC Berkeley, 2022
+  importance: 1
+  website: https://kristinamonakhova.com/
+  redirect: ../kristina
+
+- name: Join Us!
+  img: assets/img/thorlabs.png
+  info: Click image for more info!
+  education:
+  category: Postdocs and Visiting Scholars
+  importance: 4
+  website: ../join
+  redirect:  ../join
+
+- name: Join Us!
+  img: assets/img/thorlabs.png
+  info: Click image for more info!
+  education:
+  category: PhD students
+  importance: 4
+  website: ../join
+  redirect: ../join

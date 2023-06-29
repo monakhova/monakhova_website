@@ -1,0 +1,35 @@
+- name: Snapshop hyperspectral imaging
+  img: /assets/img/publication_preview/2020_spectraldiffusercam.jpeg
+  category: Compressive multidimensional imaging
+  importance: 1
+  website: https://waller-lab.github.io/SpectralDiffuserCam/
+
+- name: 3D microscopy
+  img: /assets/img/publication_preview/2020_miniscope_waterbear.gif
+  category: Compressive multidimensional imaging
+  importance: 2
+  website: https://waller-lab.github.io/Miniscope3D/
+
+- name: Deep learning for fast spatially-varying deconvolution
+  img: /assets/img/publication_preview/2022_multiwiener.png
+  category: Physics-informed machine learning
+  importance: 2
+  website: https://waller-lab.github.io/MultiWienerNet/
+
+- name: Learning to see with a lensless camera
+  img: /assets/img/publication_preview/2019_lensless_image.gif
+  category: Physics-informed machine learning
+  importance: 3
+  website: https://waller-lab.github.io/LenslessLearning/index.html
+
+- name: Deep imaging prior for compressive photography with no training data
+  img: /assets/img/publication_preview/2021_untrained.gif
+  category: Compressive multidimensional imaging
+  importance: 2
+  website: https://waller-lab.github.io/UDN/index.html
+
+- name: Learning a physics-informed noise model for extreme low light videography
+  img: /assets/img/publication_preview/2022_starlight.mp4
+  category: Physics-informed machine learning
+  importance: 1
+  website: http://kristinamonakhova.com/starlight_denoising/
